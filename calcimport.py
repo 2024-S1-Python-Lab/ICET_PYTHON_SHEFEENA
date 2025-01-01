@@ -1,0 +1,11 @@
+import calc
+a=int(input(f"Enter a number"))
+b=int(input(f"Enter a number"))
+sum=calc.add(a,b)
+print(f"sum:{sum}")
+subtract=calc.subtract(a,b)
+print(f"subtract:{subtract}")
+multiply=calc.multiply(a,b)
+print(f"multiply:{multiply}")
+divide=calc.divide(a,b)
+print(f"divide:{divide}")
